@@ -31,7 +31,7 @@ Register the "OpenSky" namespace prefix in your project's `autoload.php`:
     # app/autoload.php
 
     $loader->registerNamespaces(array(
-        'OpenSky' => __DIR__'/../vendor/bundles',
+        'OpenSky' => __DIR__ . '/../vendor/bundles',
     ));
 
 ### Application Kernel
